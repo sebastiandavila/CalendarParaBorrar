@@ -88,7 +88,7 @@ public class CalendarQuickstart {
                 //System.out.printf("%s (%s)\n", event.getSummary(), start);
             }
         }
-        
+
         return items;
 
     }
