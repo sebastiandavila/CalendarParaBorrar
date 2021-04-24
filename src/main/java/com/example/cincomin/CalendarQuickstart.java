@@ -161,11 +161,11 @@ public class CalendarQuickstart {
         deleteCredential();
     }
     public void deleteCredential(){
-        File fichero = new File("tokens/StoredCredential");
+     /*   File fichero = new File("tokens/StoredCredential");
         System.out.println(fichero.exists());
         if (fichero.delete()){
             System.out.println("El fichero ha sido borrado satisfactoriamente");}
         else{
-            System.out.println("El fichero no puede ser borrado");}
+            System.out.println("El fichero no puede ser borrado");}*/
     }
 }
