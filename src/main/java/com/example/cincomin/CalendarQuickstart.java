@@ -88,7 +88,7 @@ public class CalendarQuickstart {
                 //System.out.printf("%s (%s)\n", event.getSummary(), start);
             }
         }
-        deleteCredential();
+        
         return items;
 
     }
@@ -158,14 +158,7 @@ public class CalendarQuickstart {
         event = service.events().insert(calendarId, event).setSendNotifications(true).setConferenceDataVersion(1).execute();
         System.out.printf("Event created: %s\n", event.getHtmlLink());
 
-        deleteCredential();
+
     }
-    public void deleteCredential(){
-     /*   File fichero = new File("tokens/StoredCredential");
-        System.out.println(fichero.exists());
-        if (fichero.delete()){
-            System.out.println("El fichero ha sido borrado satisfactoriamente");}
-        else{
-            System.out.println("El fichero no puede ser borrado");}*/
-    }
+
 }
